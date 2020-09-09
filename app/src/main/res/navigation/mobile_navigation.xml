@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_current">
+
+    <fragment
+        android:id="@+id/navigation_current"
+        android:name="timifeoluwa.example.weatherapp.ui.weather.current.CurrentWeatherFragment"
+        android:label="@string/title_current"
+        tools:layout="@layout/fragment_weather_current" />
+
+    <fragment
+        android:id="@+id/navigation_future"
+        android:name="timifeoluwa.example.weatherapp.ui.weather.future.FutureListWeatherFragment"
+        android:label="@string/title_future"
+        tools:layout="@layout/fragment_future_list" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="timifeoluwa.example.weatherapp.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
