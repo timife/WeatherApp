@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/navigation_current"
         android:name="timifeoluwa.example.weatherapp.ui.weather.current.CurrentWeatherFragment"
-        android:label="@string/title_current"
+        android:label="@string/home"
         tools:layout="@layout/fragment_weather_current" />
 
     <fragment

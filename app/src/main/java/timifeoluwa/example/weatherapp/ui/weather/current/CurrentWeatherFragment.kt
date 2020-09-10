@@ -29,6 +29,7 @@ class CurrentWeatherFragment : ScopedFragment(), KodeinAware {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         return inflater.inflate(R.layout.fragment_weather_current, container, false)
     }
 
@@ -44,13 +45,13 @@ class CurrentWeatherFragment : ScopedFragment(), KodeinAware {
 
         val weatherLocation = currentWeatherViewModel.weatherLocation.await()
 
-        weatherLocation.observe(this@CurrentWeatherFragment, Observer { location ->
+        weatherLocation.observe(viewLifecycleOwner, Observer { location ->
             if (location == null) return@Observer
             updateLocation(location.name!!)
 
         })
 
-        currentWeather.observe(this@CurrentWeatherFragment, Observer {
+        currentWeather.observe(viewLifecycleOwner, Observer {
             if (it == null) return@Observer
 
             group_loading.visibility = View.GONE
@@ -88,16 +89,16 @@ class CurrentWeatherFragment : ScopedFragment(), KodeinAware {
 
     @SuppressLint("SetTextI18n")
     private fun updatePrecipitation(precip: Double) {
-        textView_precipitation.text = "Precipitation: $precip mm"
+        textView_precipitation.text = " $precip mm"
     }
 
     @SuppressLint("SetTextI18n")
     private fun updateWind(windDir: String, windSpeed: Double) {
-        textView_wind.text = "WindDirection: $windDir , $windSpeed kph"
+        textView_wind.text = "$windDir, $windSpeed kph"
     }
 
     @SuppressLint("SetTextI18n")
     private fun updateVisibility(visibility: Double) {
-        textView_visibility.text = "Visibility: $visibility km"
+        textView_visibility.text = "$visibility km"
     }
 }

@@ -56,7 +56,6 @@ interface WeatherApiService {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(WeatherApiService::class.java)
-
         }
     }
 
