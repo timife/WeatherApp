@@ -21,13 +21,17 @@ It leverages the following components from the Jetpack library:
 
 ## Screenshots
 ### Splash screen
-![Screenshot_20200911-140339](https://user-images.githubusercontent.com/59525449/92931481-cdbe2c00-f443-11ea-8de5-d40da1523f68.png)
+![Screenshot_20200911-140339~2](https://user-images.githubusercontent.com/59525449/92932261-ebd85c00-f444-11ea-9735-7b6871b02e72.png)
 
 ### Home fragment
-![Screenshot_20200911-140348](https://user-images.githubusercontent.com/59525449/92931539-e3cbec80-f443-11ea-8a91-9b5e1343cf1b.png)
+![Screenshot_20200911-140348~2](https://user-images.githubusercontent.com/59525449/92932269-f0047980-f444-11ea-93ae-81e698e2f1ed.png)
 
 ### Settings fragment
-![Screenshot_20200911-140354](https://user-images.githubusercontent.com/59525449/92931551-e9293700-f443-11ea-8747-704d09c0999c.png)
+![Screenshot_20200911-140354~2](https://user-images.githubusercontent.com/59525449/92932277-f4309700-f444-11ea-9261-c9ab8a83a534.png)
+
+### Location
+![Screenshot_20200911-140407~2](https://user-images.githubusercontent.com/59525449/92932290-fa267800-f444-11ea-9409-d36eb18e2c93.png)
+
 
 
 
