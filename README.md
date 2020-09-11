@@ -20,6 +20,14 @@ It leverages the following components from the Jetpack library:
 * SharedPreferences
 
 ## Screenshots
+### Splash screen
+![Screenshot_20200911-140339](https://user-images.githubusercontent.com/59525449/92931481-cdbe2c00-f443-11ea-8de5-d40da1523f68.png)
+
+### Home fragment
+![Screenshot_20200911-140348](https://user-images.githubusercontent.com/59525449/92931539-e3cbec80-f443-11ea-8a91-9b5e1343cf1b.png)
+
+### Settings fragment
+![Screenshot_20200911-140354](https://user-images.githubusercontent.com/59525449/92931551-e9293700-f443-11ea-8747-704d09c0999c.png)
 
 
 
