@@ -8,16 +8,17 @@ This app demonstrates the following views and techniques:
 * Retrofit to make api calls to an HTTP web service
 * GSON which handles the deserialization of the returned JSON to Kotlin data objects
 * Glide to load and cache images by URL.
- 
+* HTTP interceptors
+* Material design
+* SharedPreferences
+* Kodein for dependency injection
+
 
 It leverages the following components from the Jetpack library:
 
 * ViewModel
 * LiveData
-* HTTP interceptors
-* Material design
 * Google Location services
-* SharedPreferences
 
 ## Screenshots
 ### Splash screen
